@@ -24,7 +24,7 @@ pipeline {
                  script{
                         dir("terraform")
                         {
-                            git checkout "patch-1"
+                            
                             git "https://github.com/snehalvd/easyawsterraform.git"
                         }
                     }
